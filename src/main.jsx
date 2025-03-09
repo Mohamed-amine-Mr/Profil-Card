@@ -47,7 +47,7 @@ root.render(
 );
 
 function Avatar() {
-  return <img src="myImg.png" alt="image" className="avatar" />;
+  return <img src="myImg.jpeg" alt="image" className="avatar" />;
 }
 function Intro(props) {
   return (
