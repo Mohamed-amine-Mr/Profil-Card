@@ -86,9 +86,11 @@ function Skill({skillsObj}){
     {skillsObj.skill}
 
   
-  <span>{skillsObj.level==="advanced" && "👍"}</span>
-  <span>{skillsObj.level==="beginner" && "👶"}</span>
-  <span>{skillsObj.level==="intermediate" && "💪"}</span>
+  <span>
+    {skillsObj.level==="advanced" && "👍"}
+    {skillsObj.level==="beginner" && "👶"}
+    {skillsObj.level==="intermediate" && "💪"}
+  </span>
   </p>
   </div>
    
